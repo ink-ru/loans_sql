@@ -12,6 +12,15 @@ https://dba.stackexchange.com/questions/224332/window-function-ignore-nulls-work
 keep in Postgress:
 https://stackoverflow.com/questions/29750563/convert-keep-dense-rank-from-oracle-query-into-postgres
 
+Первая часть задания выполняется достаточно просто:
+```sql
+SELECT DISTINCT
+    Deal,
+    sum(Sum) OVER (PARTITION BY Deal) AS debt_per_deal
+FROM Loans
+ORDER BY Deal;
+```
+
 Based on discussions:
 * https://www.sql.ru/forum/1313400/raschyot-zadolzhennosti-po-lifo
 * https://www.sql.ru/forum/1313467-a/raschyot-daty-vozniknoveniya-zadolzhennosti-t-sql
