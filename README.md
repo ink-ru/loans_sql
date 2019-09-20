@@ -4,6 +4,8 @@ Online DEMO on ORACLE - https://rextester.com/ERU78446 ([source](https://github.
 
 DEMO 2 - https://rextester.com/WXXK49768 ([source](https://github.com/ink-ru/loans_sql/blob/master/oracle.sql))
 
+Изначально нужно выполнить задания без использования временных таблиц и хранимых процедур.
+
 Написать реализацию на PostgreSQL несколько сложнее чем на ORACLE. Чать синтаксического сахара нужно заменять [окнами](https://habr.com/ru/post/268983/) Но некоторые функции заменить сложно, например в БД Sybase SQL Anywhere, DB2, Redshift и Oracle можно использовать лексему "IGNORE NULLS".
 
 `ignore nulls` in Postgress:
