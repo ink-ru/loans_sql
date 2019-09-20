@@ -8,6 +8,8 @@ DEMO 2 - https://rextester.com/WXXK49768 ([source](https://github.com/ink-ru/loa
 
 Написать реализацию на PostgreSQL несколько сложнее чем на ORACLE. Чать синтаксического сахара нужно заменять [окнами](https://habr.com/ru/post/268983/) Но некоторые функции заменить сложно, например в БД Sybase SQL Anywhere, DB2, Redshift и Oracle можно использовать лексему "IGNORE NULLS".
 
+![Схема последовательности обработки условий окон](https://www.sqlite.org/images/syntax/frame-spec.gif)
+
 `ignore nulls` in Postgress:
 https://dba.stackexchange.com/questions/224332/window-function-ignore-nulls-workaround-for-postgresql
 
