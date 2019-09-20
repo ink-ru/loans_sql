@@ -1,8 +1,7 @@
 # Loans report
 
-
-
-Online DEMO on ORACLE - https://rextester.com/WXXK49768
+Online DEMO on ORACLE - https://rextester.com/ERU78446
+DEMO 2 - https://rextester.com/WXXK49768
 
 Написать реализацию на PostgreSQL несколько сложнее чем на ORACLE. Чать синтаксического сахара нужно заменять [окнами](https://habr.com/ru/post/268983/) Но некоторые функции заменить сложно, например в БД Sybase SQL Anywhere, DB2, Redshift и Oracle можно использовать лексему "IGNORE NULLS".
 
