@@ -59,4 +59,5 @@ WITH t ("Date" ,"Deal" ,"Sum") AS (
 						ELSE null END "Debt_days_3"
 			FROM q
 )
-SELECT DISTINCT "Deal", "Debt_1" AS "1. Debt", CASE WHEN "Debt_days_3" IS NOT NULL THEN "Debt_date_2" ELSE NULL END AS "2. Debt date", "Debt_days_3" AS "3. Debt days" FROM r
+SELECT DISTINCT "Deal", "Debt_1" AS "1. Debt", CASE WHEN "Debt_days_3" IS NOT NULL THEN "Debt_date_2" ELSE NULL END AS "2. Debt date", "Debt_days_3" AS "3. Debt days"
+    FROM r WHERE "Debt_1" > 0
