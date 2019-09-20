@@ -20,6 +20,8 @@ SELECT DISTINCT
 FROM Loans
 ORDER BY Deal;
 ```
+Как выполнить остальные чатси запроса описано тут:
+* https://habr.com/ru/post/270573/
 
 Based on discussions:
 * https://www.sql.ru/forum/1313400/raschyot-zadolzhennosti-po-lifo
