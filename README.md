@@ -1,6 +1,6 @@
 # Loans report
 
-Online DEMO - https://rextester.com/ZTZS42224 ([source](https://github.com/ink-ru/loans_sql/blob/master/oracle3.sql))
+Online DEMO - https://rextester.com/TGCV48872 ([source](https://github.com/ink-ru/loans_sql/blob/master/oracle3.sql))
 
 Изначально стояла цель выполнить задания без использования временных таблиц и хранимых процедур.
 
